@@ -1,10 +1,10 @@
 # WulfilaVerse
 
 A Userscript which adds Wulfila.be verse links to Bible Hub and Bible Gateway,
-but only if attested. Useful for finding words and phrases on Bible Hub and Bible Gateway,
+but only if attested in the Gothic bible. Useful for finding words and phrases on Bible Hub and Bible Gateway,
 immediately seeing if a verse is attested in Gothic and being presented
 with a Wulfila.be link when it is.
-The script also links to both BibleHub and Bible Gateway from Wulfila.be.
+The script also links to both Bible Hub and Bible Gateway from Wulfila.be.
 
 ## Installation
 
