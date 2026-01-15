@@ -235,10 +235,8 @@
 
   function parseVerse(verseText)
   {
-    console.log(verseText)
     const matches = verseText.match(
-      /([1-9])?[_ ]?([a-z]+?)[_ ]?([1-9])?[ \/.]?([0-9]+)(?:[:.-]([0-9]+))?/i)
-    console.log(matches)
+      /(?:([1-9])?[_ ]?)?([a-z]+?)(?:[_ ]?([1-9])(?![1-9]))?[ \/.]?([0-9]+)(?:[:.-]([0-9]+))?/i)
     if (!matches) return null
     return parseMatches(matches)
   }
